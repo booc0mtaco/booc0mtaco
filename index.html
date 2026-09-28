@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Loading Untropy, Please wait...</title>
+        <style>
+            body, html {
+                background-color: black;
+                color: whitesmoke;
+                font-family: monospace;
+            }
+
+            code {
+                display: block;
+            }
+
+            body > *:last-child {
+                display: inline-block;
+                border-right: 1ch solid whitesmoke;
+                animation: cursor .5s step-end infinite alternate;
+            }
+
+            .none {
+                display: none;
+            }
+
+            @keyframes cursor {
+                50% {
+                    border-color: transparent;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <script src="boot.js"></script>
+        <a class="none" rel="me" href="https://social.untropy.net/@booc0mtaco">Mastodon</a>
+
+        <code>100%</code>
+        <br>
+        <code>Helper boot complete! See console for details.</code>
+        <code>(notice): Please allow popups to improve the experience.</code>
+        <code>Building DESIGN32.DLL (50%). . .(apply_tranform:sketch2web)</code>
+    </body>
+</html>
